@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f48dd54e28b3944686eed61a92a6803, type: 3}
+  m_Name: Level6
+  m_EditorClassIdentifier: 
+  chunksNumber: 20
+  forwardSpeedIncrease: 5
+  wallPrefab: {fileID: 3474282527555647872, guid: a398d377ce9872b43977f6e82907e2ba,
+    type: 3}
+  obstaclePrefabs:
+  - {fileID: 5981600470840833864, guid: c9f63e09907bf2e41ac57e2e6edf4822, type: 3}
+  - {fileID: 5981600470840833864, guid: 4a03d64ebec3e4248a00a4d207ed475c, type: 3}
+  - {fileID: 5981600470840833864, guid: 68fb497524a52514e992aed35a8f9483, type: 3}
+  - {fileID: 5981600470840833864, guid: 6fbc10690274b454ab00936086ebc3f3, type: 3}
+  - {fileID: 5981600470840833864, guid: 879b38cbca6c22f41a3ef20bfdf35a48, type: 3}
+  - {fileID: 5981600470840833864, guid: a669bbb2d04709546940d3721f51978f, type: 3}
+  - {fileID: 5981600470840833864, guid: 63ee9bea793490f4ea841a376e8f4480, type: 3}
+  - {fileID: 5981600470840833864, guid: 365d954fdfac0544897a2bbcefe9bb8d, type: 3}
+  - {fileID: 5981600470840833864, guid: f0a143de06b06394182f53ca257950b9, type: 3}
+  - {fileID: 5981600470840833864, guid: 29a3956c85612bd40a860b1afea9aff8, type: 3}
+  - {fileID: 5981600470840833864, guid: a85355eb4faf3974bae21a4a42715399, type: 3}
+  - {fileID: 5981600470840833864, guid: 5380dce080b38b043a7976406734bbe4, type: 3}
+  - {fileID: 5981600470840833864, guid: 1b590de16da623b48ad3b387fa801b48, type: 3}
+  - {fileID: 5981600470840833864, guid: 2c36eef80d8c2ce4999307b86ffa0b93, type: 3}
+  - {fileID: 5981600470840833864, guid: 520a6fb3fca2c3d418155783fa286c76, type: 3}
+  - {fileID: 5981600470840833864, guid: a408c46cfabe4634ea33f4d7b60ad6c0, type: 3}
+  - {fileID: 5981600470840833864, guid: 29b1347267f2c634996783ad95c413c8, type: 3}
+  - {fileID: 5981600470840833864, guid: 3571db27042f2a34791af91a2ab70b56, type: 3}
+  - {fileID: 5981600470840833864, guid: 396c50d98a8f02a4aa6db53cdad57f56, type: 3}
+  - {fileID: 5981600470840833864, guid: b7671f41e50fa4249b0b34b05b294b94, type: 3}
+  - {fileID: 5981600470840833864, guid: b7671f41e50fa4249b0b34b05b294b94, type: 3}
+  - {fileID: 5981600470840833864, guid: 6a20c2b7765c7f7469864222f0d0f1a2, type: 3}
+  - {fileID: 5981600470840833864, guid: 5380dce080b38b043a7976406734bbe4, type: 3}
+  - {fileID: 5981600470840833864, guid: 1b590de16da623b48ad3b387fa801b48, type: 3}
+  - {fileID: 5981600470840833864, guid: 6a20c2b7765c7f7469864222f0d0f1a2, type: 3}
+  timerAdderPrefab: {fileID: 9196747304293307367, guid: 9d0dad7833b5c8640b92740320dafddd,
+    type: 3}
+  interactivePrefabs:
+  - {fileID: -8805526425821160966, guid: 9e6a5461c1c3eae4d900c507f66affb7, type: 3}
+  obstaclesInChunkMin: 4
+  obstaclesInChunkMax: 5
+  timerAddersInChunkMin: 2
+  timerAddersInChunkMax: 3
+  interactiveInChunkMin: 1
+  interactiveInChunkMax: 1
+  ifLastJumpTo: 0
